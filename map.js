@@ -8,6 +8,8 @@ const map = function(array, callback) {
   return results;
 }
 
+module.exports = map;
+
 const results1 = map(words, word => word[0]);
 // const results2 = map(words, function(item) {return item[0]})
 // console.log(results1);

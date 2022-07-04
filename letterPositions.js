@@ -16,6 +16,8 @@ const letterPositions = function (sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
 
 const assertArraysEqual = function (actual, expected) {
   if (eqArrays(actual, expected) === true) {

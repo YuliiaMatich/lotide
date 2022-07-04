@@ -20,4 +20,6 @@ if (item !== " ") {
 console.log(result);
 }
 
+module.exports = countLetters;
+
 countLetters("lighthouse in the house");
